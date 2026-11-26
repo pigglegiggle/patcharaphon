@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" id="top">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Patcharaphon Thepwijit, software engineer. Selected work in internal tools, software licensing, web automation, and manufacturing ERP.">
+  <title>Patcharaphon Thepwijit — Software Engineer</title>
+  <link rel="stylesheet" href="./dist/style.css">
+  <script src="./dist/script.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="home" href="#top" aria-label="Patcharaphon Thepwijit, top of page">P. Thepwijit</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" type="button" hidden>Theme: system</button>
+    </nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="name">
+      <h1 id="name">Patcharaphon Thepwijit</h1>
+      <p class="role">Software Engineer · Bangkok, Thailand</p>
+      <ul class="contacts" id="contact" aria-label="Contact and résumé">
+        <li><a target="_blank" rel="noopener noreferrer" href="mailto:sinpw782@gmail.com">Email</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/pigglegiggle">GitHub</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/patcharaphon-thepwijit/">LinkedIn</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="./dist/Patcharaphon_Thepwijit_SWE_CV.pdf">CV (PDF)</a></li>
+      </ul>
+    </section>
+    <section id="work" aria-labelledby="work-heading">
+      <h2 id="work-heading">Engineering experience</h2>
+      <article>
+        <h3><a href="https://goosecareer.com/">GooseCareer</a></h3>
+        <p class="meta">Founder</p>
+        <p>I founded and built GooseCareer, a job platform where people can browse remote openings from companies around the world.</p>
+      </article>
+      <article>
+        <h3>Profix Precision Parts</h3>
+        <p class="meta">Software Engineer <span>Aug 2026–Present</span></p>
+        <p>Built a manufacturing ERP for quotations, purchase orders, invoices, tax documents, delivery notes, and inventory. Designed the data model and document workflows so sales and finance could create, link, track, and print records in one place.</p>
+        <p>Automated purchase-order entry with OCR. Added reconciliation against the original quotation and flagged quantity, price, and subtotal mismatches before import.</p>
+      </article>
+      <article>
+        <h3>Stream I.T. Consulting</h3>
+        <p class="meta">Software Engineer Intern <span>Apr–Aug 2026</span></p>
+        <p>Helped build an internal platform for project tracking, document approvals, and travel claims with Vue, Go/Fiber, and PostgreSQL. Integrated Outlook and Microsoft Graph so staff could act on approval requests by email, and built mobile APIs that use GPS distance and tiered rates to calculate travel reimbursements.</p>
+        <p>Co-designed an offline software licensing module for a client project. Used asymmetric signatures to verify licenses and added startup validation and feature-level permissions to the Go API.</p>
+      </article>
+      <article>
+        <h3>Cyber Defense TH</h3>
+        <p class="meta">Full-Stack Developer <span>Oct–Dec 2025</span></p>
+        <p>Built licensing and usage-management features for zcrLog, a multi-tenant security log platform. Tracked usage by organization, enforced data and event-rate quotas, and added scheduled resets to support billing cycles.</p>
+        <p>Worked across React and FastAPI, using PostgreSQL for application data, Redis Streams for usage processing, and ClickHouse for reporting. Implemented organization- and workspace-level access controls and contributed to PDF reporting.</p>
+      </article>
+      <article>
+        <h3>Monster Connect</h3>
+        <p class="meta">Full-Stack Development &amp; Automation <span>Jan–Mar 2026</span></p>
+        <p>Migrated a WordPress site to Next.js with a custom CMS and deployed it to a Linux VM with Docker and Nginx. Built an n8n workflow that localizes news, generates thumbnails, and publishes across the website and social channels.</p>
+        <p>Developed product search for an e-commerce chatbot using Python, LangChain, ChromaDB, and Redis. The integration let shoppers find products in conversation and hand off actions such as opening a product page or adding an item to their cart.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
