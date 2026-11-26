@@ -17,7 +17,7 @@ body {
   font-size: 1rem;
   line-height: 1.7;
 }
-.masthead, nav, footer ul {
+.masthead, nav, .contacts {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
@@ -58,7 +58,7 @@ h3 { margin: 0; font-size: 1.0625rem; }
 p { margin: .7rem 0 0; }
 .role, .meta, nav { color: var(--muted); }
 .role { margin: .6rem 0 1.25rem; }
-#work, footer { border-top: 1px solid var(--rule); padding-top: 1.75rem; }
+#work { border-top: 1px solid var(--rule); padding-top: 1.75rem; }
 article + article { margin-top: 2.25rem; }
 .meta {
   display: flex;
@@ -67,6 +67,5 @@ article + article { margin-top: 2.25rem; }
   margin-top: .25rem;
   font-size: .875rem;
 }
-footer { margin-top: 3rem; padding-bottom: 3rem; }
-footer h2 { margin-bottom: .65rem; }
-footer ul { margin: 0; padding: 0; list-style: none; }
+main { padding-bottom: 3rem; }
+.contacts { margin: 0; padding: 0; list-style: none; }
